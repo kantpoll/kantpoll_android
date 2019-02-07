@@ -1,0 +1,81 @@
+buildscript {
+    apply from: "${rootDir}/constants.gradle"
+
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+    }
+
+    project.apply from: "${rootDir}/constants.gradle"
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.kantpoll.android"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 5
+        versionName "0.5"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    dependencies {
+        implementation 'com.facebook.android:account-kit-sdk:4.39.0'
+        implementation "com.android.support:support-v4:28.0.0"
+        implementation 'info.guardianproject.netcipher:netcipher:2.0.0-alpha1'
+        implementation 'com.android.support:support-core-utils:28.0.0'
+        implementation 'com.android.support:appcompat-v7:28.0.0'
+        implementation 'com.android.support:design:28.0.0'
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi', 'armeabi-v7a', 'x86'
+            universalApk true
+        }
+    }
+    buildToolsVersion '28.0.3'
+    productFlavors {
+    }
+    bundle {
+        density {
+            enableSplit true
+        }
+        abi {
+            enableSplit true
+        }
+        language {
+            enableSplit false
+        }
+    }
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            // Skip multidex because it follows a different versioning pattern.
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '27.+'
+            }
+        }
+    }
+}

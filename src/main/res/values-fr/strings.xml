@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permissions_get_accounts_title">Lire l\'adresse e-mail</string>
+    <string name="permissions_read_phone_state_title">Lire le numéro de téléphone</string>
+    <string name="permissions_receive_sms_title">Lire le code SMS</string>
+    <string name="import_button">Importer</string>
+    <string name="home_button">Entrer</string>
+    <string name="error_label">Erreur</string>
+    <string name="na">N/A</string>
+    <string name="quit_button">"QUITTER "</string>
+    <string name="install_orbot_title">Installer le Orbot</string>
+    <string name="install_orbot_message">S\'il vous plaît installer Orbot afin d\'utiliser cette application. Cela est nécessaire pour accéder au réseau Tor.</string>
+    <string name="new_label">nouveau coffre</string>
+    <string name="export_vault">Exporter le coffre</string>
+    <string name="go_back">"Retourner "</string>
+    <string name="no_vault">Pas de coffre</string>
+    <string name="copy_password">Mot de passe pour ouvrir le coffre</string>
+    <string name="delete_vault">Supprimer le coffre</string>
+    <string name="deleted">Supprimé</string>
+    <string name="delete_vault_message">Êtes-vous sûr de vouloir supprimer votre coffre?</string>
+    <string name="vault_content">Contenu du coffre</string>
+    <string name="export">Exporter</string>
+    <string name="import_vault">Importer</string>
+    <string name="import_label">Remplissez le formulaire avec des donnés sur le coffre</string>
+    <string name="vault_password">Mot de passe</string>
+    <string name="vault_username">Nom d\'utilisateur</string>
+    <string name="login_cancelled">Connexion annulée</string>
+    <string name="unknown_response_type">Type de réponse inconnu</string>
+    <string name="refresh_home">Rafraîchir la page</string>
+    <string name="create_vault_first">Vous devez d\'abord créer un coffre</string>
+</resources>

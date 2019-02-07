@@ -1,0 +1,65 @@
+<!--
+    Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+
+    You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+    copy, modify, and distribute this software in source code or binary form for use
+    in connection with the web services and APIs provided by Facebook.
+
+    As with any software that integrates with the Facebook platform, your use of
+    this software is subject to the Facebook Developer Principles and Policies
+    [http://developers.facebook.com/policy/]. This copyright notice shall be
+    included in all copies or substantial portions of the software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+    FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+    COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+
+<resources>
+    <string name="action_bar_title_hello" translatable="false">Kantpoll</string>
+    <string name="ak_login_protocol_scheme" translatable="false">ak359955688143899</string>
+    <string name="app_id" translatable="false">359955688143899</string>
+    <string name="app_name" translatable="false">Kantpoll</string>
+    <string name="client_token" translatable="false">f1325f4d0411640d0c3356fb245af279</string>
+    <string name="permissions_get_accounts_message" translatable="false">
+        Grant permission to read your email address from your device to pre-fill.
+    </string>
+    <string name="permissions_get_accounts_title">Read Email Address</string>
+    <string name="permissions_read_phone_state_title">Read Phone Number</string>
+    <string name="permissions_receive_sms_message" translatable="false">
+        Grant permission to read your SMS code from your device to pre-fill.
+    </string>
+    <string name="permissions_receive_sms_title">Read SMS Code</string>
+    <string name="email_button" translatable="false">Email</string>
+    <string name="phone_button" translatable="false">Phone</string>
+    <string name="import_button">Import</string>
+    <string name="home_button">Enter</string>
+    <string name="error_label">Error</string>
+    <string name="message_placeholder" translatable="false">Message&#8230;</string>
+    <string name="na">N/A</string>
+    <string name="ok_button" translatable="false">OK</string>
+    <string name="quit_button">QUIT</string>
+    <string name="install_orbot_message">Please install Orbot in order to use this app. It is required in order to access the Tor Network.</string>
+    <string name="install_orbot_title">Install Orbot</string>
+    <string name="export_vault">Export vault</string>
+    <string name="go_back">Go back</string>
+    <string name="new_label">new vault</string>
+    <string name="no_vault">No vault</string>
+    <string name="vault_content">Vault content</string>
+    <string name="copy_password">Password to open the vault</string>
+    <string name="delete_vault">Delete vault</string>
+    <string name="delete_vault_message">Are you sure you want to delete your vault?</string>
+    <string name="deleted">Deleted</string>
+    <string name="export">Export</string>
+    <string name="import_vault">Import</string>
+    <string name="vault_username">User name</string>
+    <string name="vault_password">Password</string>
+    <string name="import_label">Fill in the form with data about the vault</string>
+    <string name="refresh_home">Refresh page</string>
+    <string name="login_cancelled">Login cancelled</string>
+    <string name="unknown_response_type">Unknown response type</string>
+    <string name="create_vault_first">You must first create a vault</string>
+</resources>

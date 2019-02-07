@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permissions_get_accounts_title">Leer la dirección de correo electrónico</string>
+    <string name="permissions_read_phone_state_title">Leer el número de teléfono</string>
+    <string name="permissions_receive_sms_title">Leer el código SMS</string>
+    <string name="import_button">Importar</string>
+    <string name="home_button">Entrar</string>
+    <string name="error_label">Error</string>
+    <string name="na">N/A</string>
+    <string name="quit_button">SALIR</string>
+    <string name="install_orbot_title">Instalar el Orbot</string>
+    <string name="install_orbot_message">Por favor, instale el Orbot para usar esta aplicación. Es necesario para acceder a la red Tor.</string>
+    <string name="new_label">nueva</string>
+    <string name="export_vault">Exportar caja fuerte</string>
+    <string name="go_back">Volver</string>
+    <string name="no_vault">No hay caja fuerte</string>
+    <string name="copy_password">Contraseña para abrir la caja fuerte</string>
+    <string name="delete_vault">Borrar caja fuerte</string>
+    <string name="delete_vault_message">¿Seguro que quieres borrar tu caja-fuerte?</string>
+    <string name="deleted">Suprimido</string>
+    <string name="vault_content">Contenido de la caja fuerte</string>
+    <string name="export">Exportar</string>
+    <string name="import_vault">Importar</string>
+    <string name="import_label">Rellena el formulario con datos sobre la caja fuerte</string>
+    <string name="vault_password">Contraseña</string>
+    <string name="vault_username">Nombre de usuario</string>
+    <string name="login_cancelled">Inicio de sesión cancelado</string>
+    <string name="unknown_response_type">Tipo de respuesta desconocido</string>
+    <string name="refresh_home">Actualizar página</string>
+    <string name="create_vault_first">Primero debes crear una caja fuerte</string>
+</resources>

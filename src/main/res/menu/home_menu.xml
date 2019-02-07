@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/export_vault"
+        app:showAsAction="never"
+        android:onClick="exportVault" />
+
+    <item
+        android:title="@string/delete_vault"
+        app:showAsAction="never"
+        android:onClick="deleteVault" />
+
+    <item
+        android:title="@string/refresh_home"
+        app:showAsAction="never"
+        android:onClick="refreshPage" />
+</menu>

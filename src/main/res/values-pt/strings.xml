@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permissions_get_accounts_title">Ler endereço de email</string>
+    <string name="permissions_read_phone_state_title">Ler número de telefone</string>
+    <string name="permissions_receive_sms_title">Ler o código SMS</string>
+    <string name="import_button">Importar</string>
+    <string name="home_button">Entrar</string>
+    <string name="error_label">Erro</string>
+    <string name="na">N/D</string>
+    <string name="quit_button">SAIR</string>
+    <string name="install_orbot_title">Instalar o Orbot</string>
+    <string name="install_orbot_message">Por favor, instale o Orbot para usar este aplicativo. Ele é necessário para acessar a rede Tor.</string>
+    <string name="new_label">novo cofre</string>
+    <string name="export_vault">Exportar cofre</string>
+    <string name="go_back">Voltar</string>
+    <string name="no_vault">Sem cofre</string>
+    <string name="copy_password">Senha para abrir o cofre</string>
+    <string name="delete_vault">Deletar cofre</string>
+    <string name="delete_vault_message">Tem certeza que deseja deletar o cofre?</string>
+    <string name="deleted">Deletado</string>
+    <string name="vault_content">Conteúdo do cofre</string>
+    <string name="export">Exportar</string>
+    <string name="import_vault">Importar</string>
+    <string name="import_label">Preencha o formulário com dados sobre o cofre</string>
+    <string name="vault_password">Senha</string>
+    <string name="vault_username">Nome de usuário</string>
+    <string name="login_cancelled">Login cancelado</string>
+    <string name="unknown_response_type">Tipo de resposta desconhecido</string>
+    <string name="refresh_home">Atualizar a página</string>
+    <string name="create_vault_first">Você deve primeiro criar um cofre</string>
+</resources>
