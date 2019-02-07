@@ -1,1 +1,1 @@
-Paste the contents of the kantpoll_website repository here.
+Paste the contents of kantpoll_website here.
